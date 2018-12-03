@@ -17,18 +17,19 @@ Before run, Log in to [Tencent Cloud API Key Console](https://console.cloud.tenc
 
 2. In OmegaT, **configure your secretId & scretKey** in Machine Translation Preferences.
 
-3. In OmegaT, enable **Options > Machine Translate > Tencent Translate**. Translations will
+3. In OmegaT, enable **Options > Preferences > Machine Translate > Tencent Translate**. Translations will
    appear in the Machine Translation pane.
 
 
 Building
 ========
 
-1. From the top level of the distribution run `./gradlew build`.
 
-2. From the `build/libs/` folder, copy `omegat-tencent-plugin-*.jar`
-   to one of the OmegaT plugin folders.
+1.Download  [tencentcloud-sdk-java](https://github.com/tencentcloud/tencentcloud-sdk-java) or zip file [tencentcloud-sdk-java.zip](https://tencentcloud-sdk-1253896243.file.myqcloud.com/tencentcloud-sdk-java/tencentcloud-sdk-java.zip?_ga=1.242139138.1268576572.1543238001).
 
+2.Copy Tencent cloud sdk source to src/main/java/com folder.
+
+3.Add gson-2.2.4.jar okhttp-2.5.0.jar okio-1.6.0.jar OmegaT.jar to your CLASSPATH.
 
 License
 =======
